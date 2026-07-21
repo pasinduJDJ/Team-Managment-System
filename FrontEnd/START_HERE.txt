@@ -1,0 +1,18 @@
+BMV OLD BOYS DIGITAL DIARY — FRONTEND V1
+
+1. Read README.md.
+2. Install Node.js compatible with Angular 21 (Node 22.12+ is recommended).
+3. Run: npm install
+4. Run: npm start
+5. Open: http://localhost:4200
+
+Demo login:
+Email: admin@bmvoldboys.lk
+Password: Admin@123
+
+The current application uses mock data and browser localStorage.
+Before real personal data is used, connect Supabase Auth, database/RLS,
+Google Sheet synchronization and audit logging as described in docs/.
+
+A deploy-ready build is also included under:
+dist/old-boys-digital-diary-frontend/browser/
