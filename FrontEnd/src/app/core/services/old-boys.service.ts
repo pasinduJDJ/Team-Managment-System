@@ -4,7 +4,7 @@ import { MOCK_OLD_BOYS } from './mock-old-boys';
 
 @Injectable({ providedIn: 'root' })
 export class OldBoysService {
-  private readonly storageKey = 'bmv-diary-members';
+  private readonly storageKey = 'tc-diary-members';
   private readonly _members = signal<OldBoy[]>(this.load());
   readonly members = this._members.asReadonly();
 

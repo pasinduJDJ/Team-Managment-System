@@ -1,5 +1,5 @@
 {
-  "name": "bmv-old-boys-digital-diary-frontend",
+  "name": "thurstan-college-old-boys-digital-diary-frontend",
   "version": "1.0.0",
   "scripts": {
     "ng": "ng",
@@ -27,5 +27,5 @@
     "prettier": "^3.8.1",
     "typescript": "~5.9.2"
   },
-  "description": "Responsive Angular frontend for the BMV Old Boys Digital Diary MVP."
+  "description": "Responsive Angular frontend for the Thurstan College Old Boys Digital Diary MVP."
 }

@@ -2,13 +2,13 @@ import { Injectable, signal } from '@angular/core';
 
 @Injectable({ providedIn: 'root' })
 export class AuthService {
-  private readonly storageKey = 'bmv-diary-auth';
+  private readonly storageKey = 'tc-diary-auth';
   readonly isAuthenticated = signal(this.readStoredAuth());
-  readonly adminEmail = signal('admin@bmvoldboys.lk');
+  readonly adminEmail = signal('admin@thurstancollege.lk');
 
   login(email: string, password: string): { success: boolean; message?: string } {
     const normalizedEmail = email.trim().toLowerCase();
-    if (normalizedEmail === 'admin@bmvoldboys.lk' && password === 'Admin@123') {
+    if (normalizedEmail === 'admin@thurstancollege.lk' && password === 'Thurstan@123') {
       localStorage.setItem(this.storageKey, 'true');
       this.isAuthenticated.set(true);
       return { success: true };

@@ -12,8 +12,8 @@ import { AuthService } from '../../core/services/auth.service';
       <section class="visual-panel">
         <div class="visual-overlay"></div>
         <div class="brand-mark">
-          <div class="crest">BMV</div>
-          <div><strong>Buddhaghosa Maha Vidyalaya</strong><span>Old Boys Association</span></div>
+          <div class="crest"><img src="logo.png" alt="Thurstan College Logo" style="width: 82%; height: 82%; object-fit: contain;"></div>
+          <div><strong>Thurstan College</strong><span>Old Boys Association</span></div>
         </div>
         <div class="hero-copy">
           <span class="hero-kicker">CONNECTING GENERATIONS</span>
@@ -29,7 +29,7 @@ import { AuthService } from '../../core/services/auth.service';
       </section>
 
       <section class="form-panel">
-        <div class="mobile-brand"><div class="crest">BMV</div><strong>Digital Diary</strong></div>
+        <div class="mobile-brand"><div class="crest"><img src="logo.png" alt="Thurstan College Logo" style="width: 82%; height: 82%; object-fit: contain;"></div><strong>Digital Diary</strong></div>
         <div class="form-wrap">
           <span class="welcome">SUPER ADMIN PORTAL</span>
           <h2>Welcome back</h2>
@@ -51,7 +51,7 @@ import { AuthService } from '../../core/services/auth.service';
             <button class="submit" type="submit" [disabled]="loading()">{{ loading() ? 'Signing in…' : 'Sign in to Digital Diary' }} <span>→</span></button>
           </form>
 
-          <div class="demo-box"><strong>Demo login</strong><span>admin@bmvoldboys.lk</span><span>Password: Admin@123</span></div>
+          <div class="demo-box"><strong>Demo login</strong><span>admin@thurstancollege.lk</span><span>Password: Thurstan@123</span></div>
           <p class="security">🔒 Access is restricted to authorised administrators only.</p>
         </div>
       </section>
@@ -69,8 +69,8 @@ export class LoginComponent {
   readonly resetMessage = signal('');
 
   readonly form = this.fb.nonNullable.group({
-    email: ['admin@bmvoldboys.lk', [Validators.required, Validators.email]],
-    password: ['Admin@123', Validators.required]
+    email: ['admin@thurstancollege.lk', [Validators.required, Validators.email]],
+    password: ['Thurstan@123', Validators.required]
   });
 
 

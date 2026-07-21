@@ -1,7 +1,7 @@
 export const appConfig = {
   appName: 'Old Boys Digital Diary',
-  schoolName: 'Buddhaghosa Maha Vidyalaya',
-  shortName: 'BMV',
+  schoolName: 'Thurstan College',
+  shortName: 'TC',
   useMockData: true,
   supabase: {
     url: 'YOUR_SUPABASE_URL',

@@ -13,7 +13,7 @@ import { OldBoysService } from '../core/services/old-boys.service';
 
       <aside class="sidebar" [class.open]="sidebarOpen()">
         <div class="brand">
-          <div class="crest">BMV</div>
+          <div class="crest"><img src="logo.png" alt="Thurstan College Logo" style="width: 82%; height: 82%; object-fit: contain;"></div>
           <div>
             <strong>Digital Diary</strong>
             <span>Old Boys Association</span>
@@ -56,7 +56,7 @@ import { OldBoysService } from '../core/services/old-boys.service';
         <header class="topbar">
           <button class="menu-button" (click)="sidebarOpen.set(!sidebarOpen())" aria-label="Open navigation">☰</button>
           <div>
-            <span class="eyebrow">BUDDHAGHOSA MAHA VIDYALAYA</span>
+            <span class="eyebrow">THURSTAN COLLEGE</span>
             <h1>{{ pageTitle() }}</h1>
           </div>
           <div class="top-actions">

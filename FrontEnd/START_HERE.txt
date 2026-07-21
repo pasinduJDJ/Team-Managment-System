@@ -1,4 +1,4 @@
-BMV OLD BOYS DIGITAL DIARY — FRONTEND V1
+THURSTAN COLLEGE OLD BOYS DIGITAL DIARY — FRONTEND V1
 
 1. Read README.md.
 2. Install Node.js compatible with Angular 21 (Node 22.12+ is recommended).
@@ -7,8 +7,8 @@ BMV OLD BOYS DIGITAL DIARY — FRONTEND V1
 5. Open: http://localhost:4200
 
 Demo login:
-Email: admin@bmvoldboys.lk
-Password: Admin@123
+Email: admin@thurstancollege.lk
+Password: Thurstan@123
 
 The current application uses mock data and browser localStorage.
 Before real personal data is used, connect Supabase Auth, database/RLS,

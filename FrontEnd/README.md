@@ -1,4 +1,4 @@
-# BMV Old Boys Digital Diary — Angular Frontend
+# Thurstan College Old Boys Digital Diary — Angular Frontend
 
 A responsive Angular frontend for managing School Old Boys contact records. The project follows the Lean MVP plan and is ready to connect to Supabase after the frontend is reviewed.
 
@@ -16,8 +16,8 @@ A responsive Angular frontend for managing School Old Boys contact records. The 
 
 ## Demo credentials
 
-- **Email:** `admin@bmvoldboys.lk`
-- **Password:** `Admin@123`
+- **Email:** `admin@thurstancollege.lk`
+- **Password:** `Thurstan@123`
 
 The current project runs with mock data and stores edits/status changes in the browser `localStorage`. This is intentional so the complete frontend can be tested before Supabase tasks are connected.
 
