@@ -1,0 +1,46 @@
+BMV OLD BOYS DIGITAL DIARY — BLANK CONFIGURATION LOCATIONS
+
+1) SERVER SECRETS
+   File: .env.example
+   Copy to: supabase/.env.local
+
+   Fill later:
+   - SUPABASE_URL
+   - SUPABASE_ANON_KEY
+   - SUPABASE_SERVICE_ROLE_KEY
+   - ALLOWED_ORIGINS
+   - GOOGLE_WEBHOOK_SECRET
+   - all GOOGLE_FIELD_* values
+   - INITIAL_ADMIN_EMAIL
+   - INITIAL_ADMIN_AUTH_USER_ID
+
+2) INITIAL SUPER ADMIN
+   File: scripts/provision-admin.sql
+
+   Replace later:
+   - PASTE_AUTH_USER_UUID_HERE
+   - PASTE_ADMIN_GMAIL_HERE
+
+3) GOOGLE SHEET CONNECTOR
+   File: google-apps-script/Code.gs
+
+   Fill later:
+   - CONFIG.INTAKE_FUNCTION_URL
+   - CONFIG.WEBHOOK_SECRET
+   - CONFIG.RESPONSE_SHEET_NAME
+
+4) ANGULAR FRONTEND PUBLIC SETTINGS
+   File: frontend-integration/environment.example.ts
+
+   Fill later:
+   - supabaseUrl
+   - supabaseAnonKey
+   - backendFunctionsBaseUrl
+
+5) REMOTE SUPABASE PROJECT LINK
+   No remote project reference is stored in this ZIP.
+
+   Run later:
+   npx supabase link --project-ref YOUR_PROJECT_REF
+
+Read docs/CONFIGURATION_CHECKLIST.md before deployment.

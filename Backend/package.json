@@ -1,0 +1,18 @@
+{
+  "name": "bmv-old-boys-digital-diary-supabase-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Supabase database, Edge Functions and Google Apps Script connector for the BMV Old Boys Digital Diary.",
+  "scripts": {
+    "validate": "node scripts/validate-package.mjs",
+    "supabase:start": "npx supabase start",
+    "supabase:stop": "npx supabase stop",
+    "db:reset": "npx supabase db reset",
+    "db:push": "npx supabase db push",
+    "functions:serve": "npx supabase functions serve --env-file supabase/.env.local",
+    "functions:deploy": "node scripts/deploy-functions.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

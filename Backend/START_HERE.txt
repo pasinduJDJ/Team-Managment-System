@@ -1,0 +1,23 @@
+BMV OLD BOYS DIGITAL DIARY — SUPABASE BACKEND
+
+This package is intentionally delivered with blank project-specific settings.
+
+START IN THIS ORDER
+
+1. Read README.md.
+2. Open docs/CONFIGURATION_CHECKLIST.md and fill every item marked REQUIRED.
+3. Create your Supabase project.
+4. Copy .env.example to supabase/.env.local and add your private values.
+5. Apply the SQL migrations.
+6. Create the Super Admin in Supabase Auth.
+7. Run scripts/provision-admin.sql with the real Auth user UUID and email.
+8. Deploy the Edge Functions.
+9. Configure google-apps-script/Code.gs.
+10. Connect the Angular frontend using docs/FRONTEND_CONNECTION_GUIDE.md.
+
+IMPORTANT
+
+- Never expose the Supabase service-role key in Angular.
+- Never expose the Google webhook secret in Angular.
+- Keep public user registration disabled.
+- Test with sample data before using real Old Boys personal information.

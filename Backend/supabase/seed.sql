@@ -1,0 +1,3 @@
+-- No personal data and no administrator credentials are seeded.
+-- Use scripts/provision-admin.sql only after creating the administrator
+-- in Supabase Authentication.
